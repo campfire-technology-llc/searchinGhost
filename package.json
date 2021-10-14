@@ -1,6 +1,6 @@
 {
   "name": "@campfire-technology-llc/searchinghost",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "A pure javascript, lightweight & in-browser full-text search plugin for Ghost (blog)",
   "main": "src/searchinghost.js",
   "scripts": {

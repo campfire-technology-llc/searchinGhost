@@ -1,4 +1,4 @@
-import FlexSearch from 'flexsearch';
+import { Index } from 'flexsearch';
 
 export default class SearchinGhost {
 
@@ -388,8 +388,8 @@ export default class SearchinGhost {
     }
 
     /**
-     * Get a new instance of FlexSearch.
-     * @return {FlexSearch} The instance of FlexSearch.
+     * Get a new instance of Index.
+     * @return {Index} The instance of index.
      */
     getNewSearchIndex() {
         const indexConfig = {
@@ -408,7 +408,7 @@ export default class SearchinGhost {
             indexConfig[key] = value;
         }
         
-        return new FlexSearch(indexConfig);
+        return new Index(indexConfig);
     }
 
     /**
